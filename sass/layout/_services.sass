@@ -1,0 +1,35 @@
+.services
+  background: $main
+  text-align: center
+  
+  display: flex
+  justify-content: center
+  align-items: center
+
+  @media(min-width: 900px)
+    min-height: 400px
+    text-align: left
+
+    .container
+      display: flex
+      align-items: center
+      justify-content: center
+
+    .col-left
+      flex-basis: 50%
+      max-width: 390px
+
+    .col-right
+      flex-basis: 50%
+      min-width: 290px
+      max-width: 390px
+
+.services svg
+  fill: $white
+
+.services img
+  display: none
+
+  @media(min-width: 900px)
+    display: block
+    width: 400px

@@ -1,0 +1,38 @@
+.education
+  background: $cinza
+  text-align: center
+  position: relative
+
+  display: flex
+  justify-content: center
+  align-items: center
+
+  @media(min-width: 900px)
+    min-height: 400px
+    text-align: right
+
+    .container
+      display: flex
+      align-items: center
+      justify-content: center
+
+    .col-left
+      flex-basis: 50%
+      max-width: 390px
+
+    .col-right
+      flex-basis: 50%
+      min-width: 290px
+      max-width: 390px
+
+.education svg
+  fill: $text-secondary
+
+.education img
+  display: none
+
+  @media(min-width: 900px)
+    display: block
+    width: 375px
+    position: absolute
+    top: 0px
