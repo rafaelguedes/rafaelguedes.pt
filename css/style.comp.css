@@ -428,6 +428,10 @@ body {
 .col-left {
   margin-right: 17.5%; }
 
+@media (max-width: 900px) {
+  .col-left {
+    margin-right: 0; } }
+
 svg {
   max-width: 30px;
   max-height: 30px; }
